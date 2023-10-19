@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>City Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="buscador">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="img/search.png" alt="buscador"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City</p>
+        </div>
+        <div class="weather">
+            <img src="img/rain.png" class="weatherIcon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="ciudad">Buenos Aires</h2>
+            <h3 class="pais">Argentina</h3>
+            <div class="detalles">
+                <div class="col">
+                    <img src="img/humidity.png" alt="">
+                    <div>
+                        <p class="humedad">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/wind.png" alt="">
+                    <div>
+                        <p class="viento">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/weather.js"></script>
+</body>
+</html>
